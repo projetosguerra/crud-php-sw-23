@@ -12,7 +12,7 @@
         <div class="content mt-3">
             <div class="col-sm-12">
                 <div class="alert  alert-success alert-dismissible fade show" role="alert">
-                    <span class="badge badge-pill badge-success">Success</span> You successfully read this important alert message.
+                    <span class="badge badge-pill badge-success">Busca eficiente</span> Nosso recurso de busca facilita a localização rápida de dados específicos, permitindo que você encontre exatamente o que precisa, quando precisa.
                         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
@@ -22,11 +22,11 @@
             <div class="col-sm-12">
                 <div class="card">
                     <div class="card-header">
-                        <strong class="card-title">Data Table</strong>
+                        <strong class="card-title">Pesquise um cliente</strong>
                     </div>
                     <div class="card-body">
                         <div class="page-title">
-                            <h3>Pesquisa de Clientes</h3>
+                            <h3 style="margin-bottom: 10px;">Pesquisa de Clientes</h3>
                         </div>                        
                         <form action="" method="post">                            
                             <input class="form-control" type="text" id="nome" name="nome" onkeyup="buscarClientes()" placeholder="Digite uma inicial do nome do cliente...">

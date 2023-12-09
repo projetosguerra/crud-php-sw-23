@@ -14,8 +14,7 @@ require('conecta.php');
 <div class="content mt-3">
     <div class="col-sm-12">
         <div class="alert alert-success alert-dismissible fade show" role="alert">
-            <span class="badge badge-pill badge-success">Success</span> You successfully read this important alert
-            message.
+            <span class="badge badge-pill badge-success">Personalize</span> Adapte o sistema de acordo com as necessidades específicas do seu negócio. Desde campos personalizados até categorias de clientes, você tem o controle total sobre como organiza e visualiza suas informações.
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
             </button>
@@ -25,7 +24,7 @@ require('conecta.php');
     <div class="col-sm-12">
         <div class="card">
             <div class="card-header">
-                <strong class="card-title">Data Table</strong>
+                <strong class="card-title">Tabela de Dados</strong>
             </div>
             <div class="card-body">
                 <table id="bootstrap-data-table-export" class="table table-striped table-bordered">

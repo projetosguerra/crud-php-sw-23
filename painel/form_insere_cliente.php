@@ -16,29 +16,29 @@
         <div class="content mt-3">
             <div class="col-sm-12">
                 <div class="alert  alert-success alert-dismissible fade show" role="alert">
-                    <span class="badge badge-pill badge-success">Success</span> You successfully read this important alert message.
+                    <span class="badge badge-pill badge-success">Cadastro fácil</span> Comece registrando-se em minutos. Basta preencher algumas informações básicas e você estará pronto para começar a aproveitar todos os benefícios do nosso gerenciador de clientes.
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
             </div>
             <!--/.col-->
-            <div class="col-sm-8">
+            <div class="col-sm-8" style="width: 980px;">
                 <div class="card">
                     <form action="insere_cliente.php" method="POST">
                         <div class="mb-3">
-                            <label for="nome_cliente" class="form-label">Nome do Cliente</label>
-                            <input type="text" class="form-control" id="nome_cliente" name="nome_cliente">                            
+                            <label style="margin: 10px;" for="nome_cliente" class="form-label">Nome do Cliente</label>
+                            <input style="margin-left: 5px;" type="text" class="form-control" id="nome_cliente" name="nome_cliente">                            
                         </div>
                         <div class="mb-3">
-                            <label for="email_cliente" class="form-label">Email do cliente</label>
-                            <input type="email" class="form-control" id="email_cliente" name="email_cliente">
+                            <label style="margin: 10px;" for="email_cliente" class="form-label">Email do cliente</label>
+                            <input style="margin-left: 5px;" type="email" class="form-control" id="email_cliente" name="email_cliente">
                         </div>
                         <div class="mb-3">
-                            <label for="cidade" class="form-label">Cidade do cliente</label>
-                            <input type="text" class="form-control" id="cidade" name="cidade">
+                            <label style="margin: 10px;" for="cidade" class="form-label">Cidade do cliente</label>
+                            <input style="margin-left: 5px;" type="text" class="form-control" id="cidade" name="cidade">
                         </div>                        
-                        <button type="submit" class="btn btn-primary">Cadastrar</button>
+                        <button style="margin-left: 5px; margin-bottom: 10px; border-radius: 10px;" type="submit" class="btn btn-primary">Cadastrar</button>
                     </form>
                 </div>
             </div>

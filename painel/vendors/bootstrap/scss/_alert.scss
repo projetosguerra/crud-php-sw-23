@@ -10,6 +10,17 @@
   @include border-radius($alert-border-radius);
 }
 
+.alert-success {
+  color: #fff;
+  background-color: #124f9a;
+  border-color: #124f9a;
+}
+
+.badge-success {
+  color: #fff;
+  background-color: #65a1eb;
+}
+
 // Headings for larger alerts
 .alert-heading {
   // Specified to prevent conflicts of changing $headings-color

@@ -83,7 +83,18 @@
 
    .faca-mais .faca-mais-img img {
       width: 100%;
-}
+    }
+
+    .alert-success {
+        color: #fff;
+        background-color: #124f9a;
+        border-color: #124f9a;
+    }
+
+    .badge-success {
+        color: #fff;
+        background-color: #65a1eb;
+    }
 
 @media screen and (max-width: 830px) {                                                                             
 

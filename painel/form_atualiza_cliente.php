@@ -37,18 +37,18 @@
                 <div class="card">
                     <form action="atualiza_cliente.php?id=<?php echo $id_cliente; ?>" method="POST">
                         <div class="mb-3">
-                            <label for="nome_cliente" class="form-label">Nome do Cliente</label>
-                            <input type="text" class="form-control" id="nome_cliente" name="nome_cliente_novo" value="<?php echo $nome_cliente;?>">                            
+                            <label style="margin: 10px;" for="nome_cliente" class="form-label">Nome do Cliente</label>
+                            <input style="margin-left: 5px;" type="text" class="form-control" id="nome_cliente" name="nome_cliente_novo" value="<?php echo $nome_cliente;?>">                            
                         </div>
                         <div class="mb-3">
-                            <label for="email_cliente" class="form-label">Email do cliente</label>
-                            <input type="email" class="form-control" id="email_cliente" name="email_cliente_novo" value="<?php echo $email_cliente;?>">
+                            <label style="margin: 10px;" for="email_cliente" class="form-label">Email do cliente</label>
+                            <input style="margin-left: 5px;" type="email" class="form-control" id="email_cliente" name="email_cliente_novo" value="<?php echo $email_cliente;?>">
                         </div>
                         <div class="mb-3">
-                            <label for="cidade" class="form-label">Cidade do cliente</label>
-                            <input type="text" class="form-control" id="cidade" name="cidade_novo" value="<?php echo $cidade;?>">
+                            <label style="margin: 10px;" for="cidade" class="form-label">Cidade do cliente</label>
+                            <input style="margin-left: 5px;" type="text" class="form-control" id="cidade" name="cidade_novo" value="<?php echo $cidade;?>">
                         </div>                        
-                        <button type="submit" class="btn btn-primary">Atualizar</button>
+                        <button style="margin-left: 5px; margin-bottom: 10px; border-radius: 10px;" type="submit" class="btn btn-primary">Atualizar</button>
                     </form>
                 </div>
             </div>
